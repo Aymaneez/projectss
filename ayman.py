@@ -5,9 +5,5 @@ def check_number(number):
     else:
         print("Yes") # yes اذا كان فردي
 
-# طلب إدخال العدد من المستخدم
-try:
-    num = int(input("أدخل عددًا صحيحًا: "))
-    check_number(num)
-except ValueError:
-    print("الرجاء إدخال عدد صحيح.")
+# لا يطلب إدخال العدد من المستخدم
+
